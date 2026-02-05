@@ -138,15 +138,11 @@ cargo test
 There are tests for individual instructions, addressing modes, and interrupt
 handling.
 
-## Can I Burn This to Real Hardware?
+## Contributing
 
-The emulator itself is Rust code that runs on your computer — you can't put
-that on a 6502.
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
-But the programs you assemble with ca65/ld65 are real 6502 machine code. If
-you're building a 6502 computer (like Ben Eater's breadboard build), those
-same binaries would run on actual hardware. You'd just need to burn the ROM
-image to an EEPROM.
+## License
 
-The memory map this emulator uses ($8000-$FFFF for ROM, vectors at the top)
-is pretty standard and should work with most simple 6502 builds.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for
+details.
