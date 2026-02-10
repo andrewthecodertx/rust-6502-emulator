@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "rust-6502-emulator"
+name = "mos6502"
 version = "0.1.0"

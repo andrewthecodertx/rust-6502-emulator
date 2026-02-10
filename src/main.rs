@@ -1,4 +1,4 @@
-use rust_6502_emulator::{Bus, Cpu, bus::SimpleBus, instructions::OPCODES, status::Flag};
+use mos6502::{Bus, Cpu, bus::SimpleBus, instructions::OPCODES, status::Flag};
 use std::{env, fs, process, thread, time::Duration};
 
 const CLEAR_SCREEN: &str = "\x1b[2J";
